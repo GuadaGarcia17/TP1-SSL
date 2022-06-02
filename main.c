@@ -5,7 +5,7 @@
 int main(void)
 {
     char c = getchar();
-    while(c!=EOF)
+    while(c != EOF)
     {
         if (isupper (c))
         {
