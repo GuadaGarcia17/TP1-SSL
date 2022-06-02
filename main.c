@@ -21,7 +21,7 @@ int main(void)
             }
             else
             {
-                if (ispunct (c))
+                if (ispunct (c) | isspace (c))
                 putchar(c);
             }
         }
